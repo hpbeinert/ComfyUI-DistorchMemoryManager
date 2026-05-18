@@ -1,5 +1,12 @@
 # Technical Documentation: v2.4.0 VRAM Automatic Management Patch
 
+<table align="center">
+  <tr>
+    <td align="center" bgcolor="#3478ca" width="88" height="36"><font color="#ffffff"><b>EN</b></font></td>
+    <td align="center" bgcolor="#e5e7eb" width="88" height="36"><a href="zhmd/v240_complete_guide.md"><font color="#4b5563"><b>中文</b></font></a></td>
+  </tr>
+</table>
+
 This document analyzes the behavior of the "Startup VRAM Automatic Patch (General Manage VRAM)" implemented in **ComfyUI-VRAM-Manager (v2.4.0)**, validates how it overrides ComfyUI's standard memory manager, and provides the full text of the program code added or modified in v2.4.0 along with technical explanations.
 
 *Note: This document focuses strictly on the newly added/modified program files in v2.4.0 and excludes unmodified legacy code blocks or documentation files.*
